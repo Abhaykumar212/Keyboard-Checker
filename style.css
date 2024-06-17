@@ -1,0 +1,32 @@
+body{
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.key{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 23px;
+    background-color: #A5C9FF;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: black;
+}
